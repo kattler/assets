@@ -1,5 +1,9 @@
 # assets
 
+[![Format](https://img.shields.io/badge/format-svg%20%2B%20png-black?style=flat-square&logo=svg&logoColor=white)](#layout)
+[![librsvg](https://img.shields.io/badge/render-librsvg-black?style=flat-square&logo=gnome&logoColor=white)](https://gitlab.gnome.org/GNOME/librsvg)
+[![License](https://img.shields.io/github/license/rocattle/assets?style=flat-square&color=black)](https://github.com/rocattle/assets/blob/main/LICENSE)
+
 Shared brand assets for rocattle projects, such as logos and icons.
 
 ## Layout
