@@ -2,9 +2,9 @@
 
 [![Format](https://img.shields.io/badge/format-svg%20%2B%20png-black?style=flat-square&logo=svg&logoColor=white)](#layout)
 [![librsvg](https://img.shields.io/badge/render-librsvg-black?style=flat-square&logo=gnome&logoColor=white)](https://gitlab.gnome.org/GNOME/librsvg)
-[![License](https://img.shields.io/github/license/rocattle/assets?style=flat-square&color=black)](https://github.com/rocattle/assets/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/kattler/assets?style=flat-square&color=black)](https://github.com/kattler/assets/blob/main/LICENSE)
 
-Shared brand assets for rocattle projects, such as logos and icons.
+Shared brand assets for kattler projects, such as logos and icons.
 
 ## Layout
 
@@ -21,8 +21,8 @@ logos/<name>/png/<variant>-<size>.png
 Reference files through their raw URL:
 
 ```
-https://raw.githubusercontent.com/rocattle/assets/main/logos/<name>/<variant>.svg
-https://raw.githubusercontent.com/rocattle/assets/main/logos/<name>/png/<variant>-<size>.png
+https://raw.githubusercontent.com/kattler/assets/main/logos/<name>/<variant>.svg
+https://raw.githubusercontent.com/kattler/assets/main/logos/<name>/png/<variant>-<size>.png
 ```
 
 ## Rendering
