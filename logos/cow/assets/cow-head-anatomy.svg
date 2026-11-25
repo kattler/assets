@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#141414" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="740" fill="#000"/>
+  <rect width="1200" height="740" fill="url(#grid)"/>
+  <text x="60" y="44" font-family="SF Mono, Menlo, Consolas, monospace" font-size="14" letter-spacing="2" fill="#8f8f8f">LOGO ANATOMY</text>
+  <text x="60" y="84" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#fff">The cow head fills 208 x 165 units of a 256 unit canvas and clears a circular crop</text>
+  <rect x="1060" y="24" width="80" height="28" rx="14" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <text x="1100" y="43" font-family="SF Mono, Menlo, Consolas, monospace" font-size="14" text-anchor="middle" fill="#8f8f8f">Brand</text>
+  <rect x="120" y="170" width="480" height="480" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <svg x="120" y="170" width="480" height="480" viewBox="0 0 256 256">
+    <g fill="#fff" transform="translate(-274.3 45.7) scale(2.21)">
+      <path d="M229,23.6l-2.5-14.9c-0.8-4.8-2.7-8.7-4.1-8.7c-1.5,0-2.7,4-2.7,8.8v3.9c0,4.8-4,8.8-8.8,8.8H207c-0.3,0-0.6,0-0.8,0v10.7c0.3,0,0.6,0,0.8,0h14.7C226.5,32.2,229.8,28.3,229,23.6"/>
+      <path d="M193.9,11h-23.7c-0.2,0-0.4,0-0.6,0h-24.4c-0.3,0-0.6,0-0.8,0.1V8.8c0-4.8-1.2-8.8-2.7-8.8s-3.3,3.9-4.1,8.7l-2.5,14.9c-0.8,4.8,2.5,8.7,7.4,8.7h14.6c1.5,0,2.9-0.2,4.2-0.6L161.4,65.7c0,4.8,4,8.8,8.8,8.8h23.7c4.8,0,8.8-4,8.8-8.8V19.9C202.7,14.9,198.8,11,193.9,11z"/>
+    </g>
+  </svg>
+  <circle cx="360" cy="410" r="240" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="3 6"/>
+  <g stroke="#666" stroke-width="1" fill="none">
+    <path d="M120 140H600M120 132V148M165 132V148M555 132V148M600 132V148"/>
+    <path d="M90 170V650M82 170H98M82 255.3H98M82 564.7H98M82 650H98"/>
+    <path d="M120 680H600M120 672V688M600 672V688"/>
+  </g>
+  <g font-family="SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#fff">
+    <text x="142.5" y="124" text-anchor="middle">24</text>
+    <text x="360.0" y="124" text-anchor="middle">208</text>
+    <text x="577.5" y="124" text-anchor="middle">24</text>
+    <text x="76" y="218.7" text-anchor="end">46</text>
+    <text x="76" y="416.0" text-anchor="end">165</text>
+    <text x="76" y="613.4" text-anchor="end">46</text>
+    <text x="360" y="708" text-anchor="middle">256</text>
+  </g>
+  <rect x="165" y="255.3" width="390" height="309.4" fill="none" stroke="#3291ff" stroke-width="1" stroke-dasharray="6 5"/>
+  <circle cx="213.8" cy="348" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="213.8" y="353.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">1</text>
+  <circle cx="360" cy="432.5" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="360" y="438.0" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+  <circle cx="142.5" cy="410" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="142.5" y="415.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+  <circle cx="530" cy="580" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="530" y="585.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+  <rect x="660" y="170" width="480" height="100" rx="8" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <circle cx="698" cy="220" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="698" y="225.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">1</text>
+  <text x="730" y="215" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#fff">Horns</text>
+  <text x="730" y="242" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#8f8f8f">Tips stay 6 units inside the crop circle</text>
+  <rect x="660" y="290" width="480" height="100" rx="8" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <circle cx="698" cy="340" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="698" y="345.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+  <text x="730" y="335" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#fff">Head</text>
+  <text x="730" y="362" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#8f8f8f">One rounded block, 91 x 140 units</text>
+  <rect x="660" y="410" width="480" height="100" rx="8" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <circle cx="698" cy="460" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="698" y="465.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+  <text x="730" y="455" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#fff">Margin</text>
+  <text x="730" y="482" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#8f8f8f">24 units at the sides, 46 at the top and bottom</text>
+  <rect x="660" y="530" width="480" height="100" rx="8" fill="#0a0a0a" stroke="#2e2e2e"/>
+  <circle cx="698" cy="580" r="13" fill="#000" stroke="#fff" stroke-width="1.5"/><text x="698" y="585.5" font-family="SF Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+  <text x="730" y="575" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#fff">Circular crop</text>
+  <text x="730" y="602" font-family="Inter, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#8f8f8f">The inscribed circle clears the whole mark</text>
+</svg>

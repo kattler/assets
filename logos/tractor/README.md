@@ -9,6 +9,13 @@ Design system guide for the kattler tractor mark. It is for anyone placing the m
 - Single color on a transparent background, no gradient, no shadow
 - Always used whole. The wheels and the body are never separated
 
+## Anatomy
+
+<p align="center"><a href="assets/tractor-outline-anatomy.svg"><img src="assets/tractor-outline-anatomy.png" width="760" alt="Tractor logo anatomy with canvas, margins, and wheel clear rings"></a></p>
+
+- The figure is in canvas units, measured from the rendered mark
+- The dashed square is the bounding box of the mark and the dashed circles are the clear rings around the wheels
+
 ## Variants
 
 - Outline is the only variant: [tractor-outline.svg](tractor-outline.svg)
@@ -24,7 +31,8 @@ Design system guide for the kattler tractor mark. It is for anyone placing the m
 
 - Canvas is a 186.67 unit square (`viewBox="6.67 20.17 186.67 186.67"`)
 - The mark is about 157 x 125 units, which is 84% of the canvas width
-- Margin is about 15 units on the left and right and about 31 units on the top and bottom
+- Margin is about 16 units on the left, 14 on the right, and 31 on the top and bottom
+- The mark reaches about 3 units past the inscribed circle, so a circular crop clips the top left corner of the cab
 - Line weight is 14 units, 7.5% of the canvas, with round caps and round joins
 - The rear wheel has a radius of 36 units and a hub opening of 11 units
 - The front wheel has a radius of 20 units and a hub opening of 5 units
@@ -50,7 +58,10 @@ Design system guide for the kattler tractor mark. It is for anyone placing the m
 ```
 tractor-outline.svg
 png/tractor-outline-<size>.png
+assets/tractor-outline-anatomy.svg
+assets/tractor-outline-anatomy.png
 ```
 
 - SVG is the source of truth
 - Regenerate the PNGs with `./scripts/render.sh` from the repository root
+- The anatomy figure is not covered by the script. Render it at twice its width with `rsvg-convert -w 2400`

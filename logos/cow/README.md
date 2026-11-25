@@ -8,6 +8,13 @@ Design system guide for the kattler cow-head mark. It is for anyone placing the 
 - Single solid fill, no stroke, no gradient, no shadow
 - Always used whole. The horns and the head are never separated
 
+## Anatomy
+
+<p align="center"><a href="assets/cow-head-anatomy.svg"><img src="assets/cow-head-anatomy.png" width="760" alt="Cow head logo anatomy with canvas, margins, and crop circle"></a></p>
+
+- The figure is in canvas units, measured from the rendered mark
+- The dashed square is the bounding box of the mark and the dotted circle is a circular crop
+
 ## Variants
 
 | Variant | Mark | Background | Source |
@@ -32,7 +39,7 @@ Design system guide for the kattler cow-head mark. It is for anyone placing the 
 - The mark is about 208 x 165 units and centered on both axes
 - Margin is 24 units on the left and right (9.4% of the canvas) and 46 units on the top and bottom (17.9%)
 - The black tile has square corners. The platform applies any rounding
-- The horn tips stay about 7 units inside the inscribed circle, so a circular crop does not clip the mark
+- The horn tips stay about 6 units inside the inscribed circle, so a circular crop does not clip the mark
 
 ## Clear space and size
 
@@ -56,10 +63,13 @@ cow-head-black.svg
 cow-head-green.svg
 png/cow-head-black-<size>.png
 png/cow-head-green-<size>.png
+assets/cow-head-anatomy.svg
+assets/cow-head-anatomy.png
 ```
 
 - SVG is the source of truth
 - Regenerate the PNGs with `./scripts/render.sh` from the repository root
+- The anatomy figure is not covered by the script. Render it at twice its width with `rsvg-convert -w 2400`
 
 ## Notes
 
